@@ -978,27 +978,12 @@ input[type=text] {
 	padding: 13px;
     margin: 9px 43px;
 }
-.content{
-    width: 102%;
-    height: auto;   
-    border-radius: 10px;
-    margin-top: 35px;
-}
-
-.container{
-    width: 100%;
-    height: auto;
-}.images1{
-    width: 23%;
-    height: 10%;
-}
-
 @media only screen and (max-width: 600px){
 	#header{
 		background-image: none;
 	}
 	.fit-icon{
-		    width: 279px;
+		width: 363px;
       height: 20%;
 	}
 	.navbar.fixed-top{
@@ -1009,7 +994,7 @@ input[type=text] {
 	/*=secton-1==*/
 	.container1 {
 		padding-left: 2em;
-		padding-top: 15em;
+		padding-top: 8em;
 	}
 
 	/*==about us=*/
@@ -1080,8 +1065,17 @@ input[type=text] {
 	.row_1{
 		padding-bottom: 20px;
 	}
+	.images{
+		width: 56%;
+	}
 	
 }
+@media only screen and (max-width: 466px) {
+	.fit-icon {
+	  width: 279px;
+	  height: 20%;
+	}
+	}
 html body section#about div.about_us.aos-init.aos-animate div.aboutustext div.section-heading4 div.buttonreadmore.aos-init.aos-animate {
 	padding-bottom: 80px;
 }
@@ -1090,21 +1084,19 @@ html body section#about, html body section#about div.about_us.aos-init.aos-anima
 }
 html body section#client, html body section#client div.our_client.aos-init.aos-animate {
 	width: 100%;
+
+}
+html body section#service.service {
+	height: auto ;
 }
 @media only screen and (max-width: 1666px) {
 	html body section#service.service div.row {
 		margin-left: -160px;
 	}
-	.images{
-		width: 56%;
-	}
 }
 @media only screen and (max-width: 1476px) {
 	html body section#service.service div.row {
 		margin-left: -250px;
-	}
-	.images{
-		width: 56%;
 	}
 }
 @media only screen and (max-width: 1392px) {
@@ -1114,16 +1106,10 @@ html body section#client, html body section#client div.our_client.aos-init.aos-a
 	html body section#service.service div.row div.column {
 		padding-left: 0px;
 	}
-	.images{
-		width: 56%;
-	}
 }
 @media only screen and (max-width: 1186px) {
 	html body section#service.service div.row {
 		margin-left: -168px;
-	}
-	.images{
-		width: 56%;
 	}
 	html body section#service.service div.row div.column {
 		padding-left: 0px;
@@ -1145,23 +1131,16 @@ html body section#client, html body section#client div.our_client.aos-init.aos-a
 	html body section#service.service {
 		height: 1790px;
 	}
-	.images{
-		width: 85%;
-	}
 }
 @media only screen and (max-width: 905px) {
 	html body section#service.service div.row {
 		margin-left: -100px;
 	}
-	.images{
-		width: 91%;
-	}
-	}
+}
 @media only screen and (max-width: 800px) {
 	html body section#service.service div.row {
 		margin-left: -148px;
 	}
-
 }
 @media only screen and (max-width: 722px) {
 
@@ -1170,9 +1149,8 @@ html body section#client, html body section#client div.our_client.aos-init.aos-a
 		left: 250px;
 		bottom: 1640px;
 	}
-	
 }
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 602px) {
 	html body section#service.service div.row {
 		margin-left: 0px;
 	}
@@ -1183,30 +1161,71 @@ html body section#client, html body section#client div.our_client.aos-init.aos-a
 		position: initial;
 	}
 	html body section#service.service {
-		height: auto;
+		height: 3525px;
 	}
 }
 @media only screen and (max-width: 600px) {
 	.our_client .column_1 {
 	float: left;
 	width: 100px;
-	height: 100%;
 	padding-left: 0;
 	padding-top: 43px;
 	}
-	
 }
-html body section#client div.our_client.aos-init.aos-animate {
-	height: 100vh;
-
-}
+/*html body section#client div.our_client.aos-init.aos-animate {
+	height: 550px;
+}*/
 @media only screen and (max-width: 424px) {
 	html body section#client div.our_client.aos-init.aos-animate {
-		height: 891px;
+		height: 650px;
 	}
 }
 @media only screen and (max-width: 284px) {
 	html body section#client div.our_client.aos-init.aos-animate {
 		height: 855px;
 	}
+}
+@media only screen and (max-width: 662px) {
+	html body nav.navbar.navbar-expand-lg.fixed-top div.nav-icon.ml-auto button#btn.btn {
+		position: absolute;
+		top: 25px;
+		right: 25px;
+	}
+}
+nav {
+	overflow: visible;
+}
+.fixed-top {
+	position: fixed;
+	top: 0;
+	right: auto;
+	left: 0;
+	z-index: 1030;
+}
+@media only screen and (max-width: 392px) {
+	nav {
+		position: absolute;
+	}
+}
+section {
+	overflow: hidden;
+}
+html body nav.navbar.navbar-expand-lg.fixed-top {
+	width: 100%;
+}
+html body section#service.service {
+	max-width: 100%;
+}
+@media only screen and (max-width: 1080px) {
+	html body section#home div.hero.container1 {
+		padding-left: 189px;
+		padding-top: 295px;
+	}
+}
+@media only screen and (max-width: 600px){
+	/*=secton-1==*/
+	html body section#home div.hero.container1 {
+		padding-left: 2em;
+		padding-top: 8em;
+	}	
 }
