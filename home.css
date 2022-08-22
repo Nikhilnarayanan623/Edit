@@ -1084,7 +1084,6 @@ html body section#about, html body section#about div.about_us.aos-init.aos-anima
 }
 html body section#client, html body section#client div.our_client.aos-init.aos-animate {
 	width: 100%;
-
 }
 html body section#service.service {
 	height: auto ;
@@ -1165,24 +1164,28 @@ html body section#service.service {
 	}
 }
 @media only screen and (max-width: 600px) {
+	html body section#client {
+		height: 600px;
+	}
+}
+@media only screen and (max-width: 600px) {
 	.our_client .column_1 {
 	float: left;
 	width: 100px;
 	padding-left: 0;
 	padding-top: 43px;
 	}
+
 }
 /*html body section#client div.our_client.aos-init.aos-animate {
 	height: 550px;
 }*/
 @media only screen and (max-width: 424px) {
 	html body section#client div.our_client.aos-init.aos-animate {
-		height: 650px;
+		height: 700px;
 	}
-}
-@media only screen and (max-width: 284px) {
-	html body section#client div.our_client.aos-init.aos-animate {
-		height: 855px;
+	html body section#client {
+		height: 700px;
 	}
 }
 @media only screen and (max-width: 662px) {
@@ -1190,6 +1193,14 @@ html body section#service.service {
 		position: absolute;
 		top: 25px;
 		right: 25px;
+	}
+}
+@media only screen and (max-width: 299px) {
+	html body section#client div.our_client.aos-init.aos-animate {
+		height: 855px;
+	}
+	html body section#client {
+		height: 855px;
 	}
 }
 nav {
@@ -1228,4 +1239,9 @@ html body section#service.service {
 		padding-left: 2em;
 		padding-top: 8em;
 	}	
+}
+@media only screen and (max-width: 424px){
+	#home {	 
+		background-image: url("https://dummyimage.com/1250x600/000/fff");
+	}
 }
