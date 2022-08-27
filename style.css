@@ -273,44 +273,6 @@ h1 {
     100% { width: 100%; }
   }
 @media only screen and (max-width: 600px){
-	#header{
-		background-image: none;
-	}
- 
-	.navbar.fixed-top{
-		position: fixed;
-	}
-	.container1 {
-		padding-left: 2em;
-		padding-top: 40em;
-	}
-  .fit-icon{
-    width: 15em;
-  height: unset;
-}
-.company-icon img{
-  width: 750px;
-  height: 184px;
-}
-.column2 {
-  padding-top: 30px;
-  padding-left: 150px;
-  padding-bottom: 100px;
-}
-
-.header-text h1{
-  font-size: 39px;
-  padding-right: 96px;
-}
-nav .fas{
-  display: block;
-  font-size: 25px;
-  cursor: pointer;
-}
-.hero{
-  width: 100%;
-  height: 50000%;
-}
 .hero::before{
   width: 100%;
   height: 100%;
@@ -326,5 +288,105 @@ nav .fas{
 }
 .why .span2{
   padding-left: 195px;
+}
+@media only screen and (max-width: 600px){
+	#header{
+		background-image: none;
+	}
+	.fit-icon{
+		width: 363px;
+      height: 20%;
+	}
+	.navbar.fixed-top{
+		position: fixed;
+		padding-bottom: 20px;
+	}
+
+	/*=secton-1==*/
+	.container1 {
+		padding-left: 2em;
+		padding-top: 8em;
+	}
+
+	/*==about us=*/
+	.about_us,.service {
+		height: auto;
+		width: 100%;
+		padding-left: 15px;
+		padding-top: 6em;
+		padding-bottom: 6em;
+	}
+	.aboutustext {
+		padding-left: 15px;
+		padding-top: 40px;
+		padding-right: 50px;
+	}
+	/*=our serives==*/
+	.flip-card-container{
+		padding-left: 65px;
+		width: 317px;
+	}
+	/*==ourclintes=*/
+	#contact h1{
+		padding-bottom: 1em;
+	}
+	.our_client {
+		height: 190vh;
+		width: 100%;
+		padding-left: 100px;
+		padding-top: 110px;
+		padding-bottom: 2em;
+	}
+	.our_client .column_1 {
+		float: left;
+		width: 100%;
+		padding-left: 0;
+		padding-top: 55px;
+	}
+	/*===contect us==*/
+	.contact_us {
+		padding-left: 10px;
+		padding-top: 65px;
+		padding-bottom: 65px;
+	}
+	.gform {
+		width: 100% !important;
+		height: 30%;
+		padding: 2em;
+	}
+	.mapss{
+		width: 100% !important;
+    padding: 2em;
+	padding-left: 59px;
+	}
+	.icon{
+		padding-left: 29px;
+	}
+	.icon .fa {
+		padding: 15px;
+		margin: 16px 21px;
+	}
+	.container1 .text-home{
+		font-size: 2px;
+	}
+	.form-row{
+		margin-right: 11px;
+    margin-left: 34px;
+	}
+	.row_1{
+		padding-bottom: 20px;
+	}
+	.images{
+		width: 56%;
+	}
+	
+}
+@media only screen and (max-width: 425px) {
+	html body section#container.content div.row {
+		margin-left: -148px;
+	}
+	.hero::after{
+		width: 20px;
+	}
 }
 }
